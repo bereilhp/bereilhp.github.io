@@ -1,2 +1,2 @@
 # bereilhp.github.io
-[Link to Web Page](https://bereilhp.github.io/)
+Web Page [Link](https://bereilhp.github.io/)
