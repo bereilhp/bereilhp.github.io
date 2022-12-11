@@ -3,81 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Aprender JavaScript</title>
-    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <title>Memeio</title>
+    <link rel="icon" type="image/ico" href="./favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./mystyle.css">
   </head>
 
-  <body style="background-color: lightgrey;">
-    <h1 id="aprender" style="text-align: center;">Introducción a JavaScript</h1>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
-    <img class="imag" src="./images/js.png" alt="JavaScript-Logo" width="400">
-    
-
-    <h4 style="padding-left: 10px;">¿Qué es JavaScript?</h4>
-    <p style="padding-left: 30px;"><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">JavaScript</a> es un lenguaje de programación interpretado, 
-      dialecto del estándar ECMAScript. Se define como orientado a objetos, 
-      basado en prototipos, imperativo, débilmente tipado y dinámico.</p>
-
-    <h4 style="padding-left: 10px;">¿Cómo empezo JavaScript?</h4>
-    <p style="padding-left: 30px;">JavaScript fue desarrollado originalmente por Brendan Eich de Netscape con el nombre de Mocha,
-      el cual fue renombrado posteriormente a LiveScript, para finalmente quedar como JavaScript. 
-      El cambio de nombre coincidió aproximadamente con el momento en que Netscape agregó compatibilidad con la 
-      tecnología Java en su navegador web Netscape Navigator en la versión 2002 en diciembre de 1995.
-    </p>
-
-    <img class="imag" src="./images/Brendan.jpg" alt="Brendan Eich" width="300">
-    <p style="text-align: center;"><em>Brendan Eich</em></p>
-
-    <br>
-
-    <h4 style="padding-left: 10px;">¿Cuáles son algunas características de JavaScript?</h4>
-    <ul style="padding-left: 50px;">
-      <li><strong>Lenguaje del lado del cliente:</strong> Cuando se dice que un lenguaje es del lado del cliente, nos referimos a que se ejecuta en la 
-        máquina del propio cliente a través de un navegador. Algunos de estos lenguajes son el propio javascript, HTML, CSS o Java. 
-        Esta categoría de lenguajes se diferencia de la otra gran categoría: los lenguajes del lado del servidor. 
-        Estos lenguajes se ejecutan e interpretan por el propio servidor y necesitan un tratamiento antes de mostrarlos al usuario final. 
-        Algunos de los lenguajes de programación del lado del servidor más conocidos son PHP, ASP o PERL.
-      </li>
-      <li><strong>Lenguaje orientado a objetos:</strong>
-        Javascript es un lenguaje orientado a objetos. Que un lenguaje esté orientado a objetos quiere decir que utiliza clases y objetos como estructuras que permiten 
-        organizarse de forma simple y son reutilizables durante todo el desarrollo. 
-        Otros lenguajes orientados a objetos son Java, Python o C++.
-      </li>
-      <li><strong>De tipado débil o no tipado:</strong>
-        Que un lenguaje sea de tipado débil quiere decir que no es necesario especificar el 
-        tipo de dato al declarar una variable. Esta característica supone una gran ventaja a 
-        la hora de ganar rapidez programando, pero puede provocar que cometamos más errores 
-        que si tuviéramos esa restricción que poseen los lenguajes de tipado fuerte como C++ o Java.
-      </li>
-      <li><strong>De alto nivel:</strong>
-        Que Javascript sea un lenguaje de alto nivel significa que su sintaxis es fácilmente 
-        comprensible por su similitud al lenguaje de las personas. Se le llama de 
-        “alto nivel” porque su sintaxis se encuentra alejada del nivel máquina, es decir, 
-        del código que procesa una computadora para ejecutar lo que nosotros programamos. 
-      </li>
-      <li><strong>Lenguaje interpretado:</strong>
-        Javascript es un lenguaje interpretado porque utiliza un intérprete que permite convertir las líneas de código 
-        en el lenguaje de la máquina. Esto tiene un gran número de ventajas como la 
-        reducción del procesamiento en servidores web al ejecutarse directamente en el 
-        navegador del usuario, o que es apto para múltiples plataformas permitiendo usar el 
-        mismo código. 
-      </li>
-    </ul>
-
-    <br>
-    <br>
-
-    <h4 style="padding-left: 10px;">¿Cuál es el porcentaje de páginas que usan JavaScript?</h4> 
-    <br>
-    <div class="progress">
-      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="97.6" aria-valuemin="0" aria-valuemax="100" style="width: 97.6%">97.6%</div>
+  <body style="background-color: darkgray;">
+    <div style="text-align: center;">
+      <button id="memeBtn" onclick="fetchMemes()">Click me for new meme!</button>
     </div>
+    <br>
 
-    <br>
-    <br>
+    <script src="./app.js"></script>
   </body>
 </html>

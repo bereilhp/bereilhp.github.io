@@ -5,13 +5,17 @@ body {
     user-select: none;
 }
 
-#aprender{
-    font-size: 75px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 5px 5px lightyellow;
+#memeBtn {
+    color: black;
+    padding: 5px;
+    height: 60px;
+    margin-top: 3%;
 }
 
-.imag {
+img {
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
 }
